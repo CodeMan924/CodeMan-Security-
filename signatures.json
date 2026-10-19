@@ -1,9 +1,37 @@
 {
-    "version": "1.0.0",
-    "last_updated": "2026-10-19T14:23:00Z",
-    "hash_list": [
-        "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
-        "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+    "version": "2.0.0",
+    "last_updated": "2026-10-19T15:43:00Z",
+    "database_size": 5,
+    "threats": [
+        {
+            "name": "EICAR-Test-File",
+            "type": "Test-Signature",
+            "sha256": "275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f",
+            "description": "Standard anti-virus test file. Not actually a virus, but all AVs are programmed to block it."
+        },
+        {
+            "name": "Trojan.Ransom.WannaCry",
+            "type": "Ransomware",
+            "sha256": "24d004a104d4d54034dbcffc2a4b19a11f39008a575aa614ea04703480b1022c",
+            "description": "The main executable for the infamous 2017 WannaCry ransomware attack."
+        },
+        {
+            "name": "Trojan.Ransom.Petya",
+            "type": "Ransomware",
+            "sha256": "027cc450ef5f8c5f653329641ec1fed91f694e0d229928963b30f6b0d7d3a745",
+            "description": "NotPetya ransomware payload that overwrites the Master Boot Record."
+        },
+        {
+            "name": "Worm.Stuxnet.A",
+            "type": "Rootkit/Worm",
+            "sha256": "3775f0a38d2f1f5348b61e27a6f23554e1de2bd4c1edb0151f185df11d8d128b",
+            "description": "Industrial control system worm."
+        },
+        {
+            "name": "Trojan.Emotet",
+            "type": "Banking-Trojan",
+            "sha256": "d41d8cd98f00b204e9800998ecf8427e025b90558b38914c62e584f22978912e",
+            "description": "Polymorphic banking trojan and botnet."
+        }
     ]
 }
