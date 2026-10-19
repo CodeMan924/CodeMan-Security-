@@ -1,2 +1,2 @@
 # CodeMan Security
-CodeMan Security is a security program which can run normal scans and more! It is open-source meaning it's a completely free program.
+Please do not download anything from this branch. This is for the Automatic installation to install. Please install from main branch.
