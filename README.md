@@ -1,2 +1,2 @@
 # CodeMan Security
-CodeMan Security is a security program which can run normal scans and more! It is open-source meaning it's a completely free program.
+CodeMan Security is a security program which can run normal scans and more! It is open-source meaning it's a completely free program. Make sure to check out my website at https://sites.google.com/view/codeman-secure/documentation
